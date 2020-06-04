@@ -12,5 +12,5 @@ end
 
 def printer(name_array)
   name_array.each{|name| puts badge_maker(name)}
-  assign_rooms(name_array).each{|item| puts "#{item}"}
+  assign_rooms(name_array).each{|room_num| puts "#{room_num}"}
  end
